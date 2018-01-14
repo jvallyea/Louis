@@ -1,3 +1,10 @@
 # Louis
-** Taken from Devpost [here](https://devpost.com/software/louis-c519xw)
-
+**Taken from Devpost [here](https://devpost.com/software/louis-c519xw)**
+<br/> <br/>
+![alt text](https://github.com/jvallyea/Louis/blob/master/gallery.jpg)
+# Inspiration
+A member of our core team is very close with his cousin who is severely disabled. Thus, we approached YHack with a social conscious Hack that would assist those who don't have the same opportunities to attend Hackathons as we do. Although our peers who are visually impaired use current methods and technology including echolocation, seeing-eye dogs, and a white cane for assistance, existing aides fall short from the potential presented by today's technology. We decided to design and construct a revolutionary product that allows those who are blind to have a greater sense of their surroundings rather than what lies five feet ahead. Looking to our community, we reached out and spoke with a prominent economics professor from Brown University, professor Roberto Serrano. He explained that, "The cane isn't perfect. For example, if an obstacle is not on the floor, but is up above, you are likely to bump into it. I would think that some electronic device that alerts me to its presence would help." Thus, Louis was born, a proprietary, mobile braille reader that not only alerts but also locates and describes one's surroundings from a small, integrated camera.
+# What it does
+Louis uses a raspberry-pi camera to take images that are then uploaded and processed by the Microsoft Azure (vision) API, Google Cloud (vision) API, and Facebook Graph API to provide short-text summaries of the image. This text is converted to a Braille matrix which is transformed into a series of stepper motor signals. Using two stepper motors, we translate the image into a series of Braille characters that can be read simply by the sliding of a finger.
+# What's next?
+We are going to integrate Louis with thet Microsoft Kinect!  We hope to grant our peers and colleagues with visual impairment unparalleled access to their surroundings using touch and the physical language of braille.
